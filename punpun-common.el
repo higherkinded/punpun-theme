@@ -182,6 +182,12 @@
    (ido-only-match :weight bold)
    (ido-subdir :inherit font-lock-string-face)
 
+   ;; idris-syntax.el
+   (idris-semantic-function-face :inherit font-lock-function-name-face)
+   (idris-semantic-data-face :inherit font-lock-constant-face)
+   (idris-semantic-type-face :inherit font-lock-type-face)
+   (idris-semantic-bound-face :inherit font-lock-variable-name-face)
+
    ;; isearch.el
    (isearch :background base2)
    (isearch-fail :inherit error)
